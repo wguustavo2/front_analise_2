@@ -1,0 +1,34 @@
+! <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+const lugares = ["praia", "montanha"]
+const mensagem =`
+-- ROTEIRO DE VIAGENS --
+Lugares:    ${lugares}
+----------------------` 
+alert(mensagem) // fake menu
+const escolhausuario = prompt("Para aonde deseja viajar?")
+if( escolhausuario == null || escolhausuario == NaN) {
+    alert("Por favor digite um valor da lista de viagens")
+} else {
+       if(lugares.includes(escolhausuario)) {
+        if(escolhausuario == "praia"){
+            // alert("Praia!")
+             window.location.href = "./praia.html"
+        }
+        
+       } else if(escolhausuario == "Montanha"){
+        // alert("Montanha...!!")
+        window.location.href = "./montanha.html"
+       }
+    }
+
+</script>
+</body>
+</html>
