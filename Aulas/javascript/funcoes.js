@@ -25,13 +25,21 @@ function formataTexto(lista){
 }
 //formataTexto(jogadores)
 //formataTexto(frutas)
-function adicao(n1, n2){
-    return n1 + n2
+
+// function adicao(n1, n2){
+//     return n1 + n2
+// }
+
+function subtracao(n1, n2){
+     return n1 - n2
 }
 // faça uma versão para subtracao
 
-const resultadoadicao = adicao(5, 25)
-console.log(`Adição: ${resultadoadicao}`) // valor 30
+// const resultadoadicao = adicao(5, 25)
+// console.log(`Adição: ${resultadoadicao}`) // valor 30
+
+const resultadosubtracao = subtracao(25, 25)
+console.log(`Subtração: ${resultadosubtracao}`) //0
 
 // Invocar ou chamar a função
 // dizOla()
